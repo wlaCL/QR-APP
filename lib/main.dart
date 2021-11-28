@@ -21,13 +21,13 @@ class MyApp extends StatelessWidget {
         initialRoute: 'home',
         routes: {'home': (_) => HomeScreen(), 'mapa': (_) => MapaScreen()},
         theme: ThemeData(
-            primaryColor: Colors.brown,
-            primarySwatch: Colors.cyan,
+            primaryColor: Colors.blueGrey,
+            primarySwatch: Colors.lightBlue,
             //primaryIconTheme: IconThemeData(color: Colors.white),
             //colorScheme: ColorScheme.light(),
             fontFamily: 'Georgia',
             floatingActionButtonTheme: FloatingActionButtonThemeData(
-              backgroundColor: Colors.tealAccent[700],
+              backgroundColor: Colors.lightBlue,
             )),
       ),
     );

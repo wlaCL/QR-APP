@@ -20,13 +20,14 @@ class CustomNavigatorBar extends StatelessWidget {
           BottomNavigationBarItem(
               icon: Icon(
                 Icons.map,
+                color: Colors.blueGrey,
                 //color: Colors.black,
               ),
               label: 'Mapa'),
           BottomNavigationBarItem(
               icon: Icon(
                 Icons.compass_calibration,
-                //color: Colors.black,
+                color: Colors.blueGrey,
               ),
               label: 'Direcciones')
         ]);

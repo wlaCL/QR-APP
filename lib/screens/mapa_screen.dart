@@ -66,7 +66,7 @@ class _MapaScreenState extends State<MapaScreen> {
               }
             });
           },
-          child: Icon(Icons.layers)),
+          child: Icon(Icons.layers, color: Colors.blueGrey)),
       floatingActionButtonLocation: FloatingActionButtonLocation.miniEndDocked,
     );
   }

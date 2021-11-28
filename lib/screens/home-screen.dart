@@ -26,7 +26,7 @@ class HomeScreen extends StatelessWidget {
                 Provider.of<ScanListProvider>(context, listen: false)
                     .borrarTodos();
               },
-              icon: Icon(Icons.delete_forever_sharp))
+              icon: Icon(Icons.delete_forever_sharp, color: Colors.blueGrey))
         ],
         elevation: 0,
       ),
