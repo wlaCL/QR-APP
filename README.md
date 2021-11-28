@@ -1,4 +1,4 @@
-# seccion9_qrscanner
+# QR- APPLICATION
 
 A new Flutter project.
 
